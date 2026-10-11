@@ -22,6 +22,45 @@ I'm a Software Engineer at **Evalueserve** (Gurugram, India), building at the in
 
 ## 🚀 Featured Projects
 
+### 🔬 Autonomous Research Agent
+Ask a question. The agent searches the web, reads pages, reasons across sources and writes a structured, cited report, streamed to the UI.
+
+- **Stack:** Next.js (streaming UI), FastAPI, LangGraph, pgvector, Redis, LangSmith
+- **Orchestration:** search, page-reader and database tools as graph nodes, with conditional routing on whether enough sources have been gathered
+- **Quality:** 20-question golden evaluation set, RAGAS metrics, full LangSmith traces for every LLM and tool call
+- **Safety:** prompt-injection defences, PII redaction and toxic-output blocking
+- 🔗 [Repository](https://github.com/Shreyanshi123/research-agent) · [Live demo](#) · [Architecture Decision Record](#)
+
+### 📚 Doc Q&A: Retrieval-Augmented Generation
+Upload a PDF and get answers with cited sources.
+
+- **Stack:** Python, FastAPI, pgvector / ChromaDB, LangChain
+- **Retrieval:** tuned chunking and re-ranking, with RAGAS scores tracked before and after each change
+- 🔗 [Repository](https://github.com/Shreyanshi123/doc-qa-rag)
+
+### 🧰 FastMCP Server
+A Model Context Protocol server exposing narrowly scoped tools, connected to Claude Desktop.
+
+- **Stack:** Python, FastMCP
+- 🔗 [Repository](https://github.com/Shreyanshi123/fastmcp-server)
+
+### 🐦 Social-Style API (Production Backend)
+A Twitter-style REST API built for real traffic and deployed on a VPS.
+
+- **Stack:** Node.js, Express (MVC), PostgreSQL / MongoDB, Redis caching, Socket.IO, BullMQ retry queues
+- **Auth:** JWT with refresh-token rotation and OAuth
+- **Delivery:** Docker Compose, Nginx with SSL, PM2 cluster mode, CI/CD with auto-deploy on every push
+- **Testing:** Jest and Supertest, k6 load tests
+- 🔗 [Repository](https://github.com/Shreyanshi123/social-api)
+
+### 🧱 Full-Stack Next.js Application
+A full-stack app with authentication, CRUD and search.
+
+- **Stack:** Next.js App Router, TypeScript (strict), Prisma, PostgreSQL, TanStack Query, Zustand, shadcn/ui, Zod
+- **Auth:** JWT-based, deployed on Vercel
+- 🔗 [Repository](https://github.com/Shreyanshi123/nextjs-fullstack-app)
+
+---
 
 ## 💻 Tech Stack
 
