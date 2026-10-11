@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Shreyanshi Mishra</h1>
-<h3 align="center">AI Full-Stack Engineer | GenAI & Agentic Systems | Backend</h3>
+<h3 align="center">AI Full-Stack Engineer | Backend Systems</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/shreyanshi-mishra-151508224/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -10,55 +10,13 @@
 
 ## 💫 About Me
 
-I'm a Software Engineer at **Evalueserve** (Gurugram, India), building at the intersection of backend engineering and generative AI.
+I'm a Software Engineer at **Evalueserve** in Gurugram, India, working at the intersection of backend engineering and AI.
 
-- 🏢 Enterprise applications, REST APIs and microservices with Node.js, TypeScript, .NET and Python
-- 📄 Document intelligence: ingestion, content extraction, search and retrieval
-- 🤖 LLM applications: RAG, vector search, LangGraph agents and MCP servers
-- 📊 Evaluation and observability for AI systems: RAGAS, golden datasets, LangSmith tracing
-- 🔐 Authentication and authorization (JWT, OAuth, Azure AD), Elasticsearch and Docker
-
----
-
-## 🚀 Featured Projects
-
-### 🔬 Autonomous Research Agent
-Ask a question. The agent searches the web, reads pages, reasons across sources and writes a structured, cited report, streamed to the UI.
-
-- **Stack:** Next.js (streaming UI), FastAPI, LangGraph, pgvector, Redis, LangSmith
-- **Orchestration:** search, page-reader and database tools as graph nodes, with conditional routing on whether enough sources have been gathered
-- **Quality:** 20-question golden evaluation set, RAGAS metrics, full LangSmith traces for every LLM and tool call
-- **Safety:** prompt-injection defences, PII redaction and toxic-output blocking
-- 🔗 [Repository](https://github.com/Shreyanshi123/research-agent) · [Live demo](#) · [Architecture Decision Record](#)
-
-### 📚 Doc Q&A: Retrieval-Augmented Generation
-Upload a PDF and get answers with cited sources.
-
-- **Stack:** Python, FastAPI, pgvector / ChromaDB, LangChain
-- **Retrieval:** tuned chunking and re-ranking, with RAGAS scores tracked before and after each change
-- 🔗 [Repository](https://github.com/Shreyanshi123/doc-qa-rag)
-
-### 🧰 FastMCP Server
-A Model Context Protocol server exposing narrowly scoped tools, connected to Claude Desktop.
-
-- **Stack:** Python, FastMCP
-- 🔗 [Repository](https://github.com/Shreyanshi123/fastmcp-server)
-
-### 🐦 Social-Style API (Production Backend)
-A Twitter-style REST API built for real traffic and deployed on a VPS.
-
-- **Stack:** Node.js, Express (MVC), PostgreSQL / MongoDB, Redis caching, Socket.IO, BullMQ retry queues
-- **Auth:** JWT with refresh-token rotation and OAuth
-- **Delivery:** Docker Compose, Nginx with SSL, PM2 cluster mode, CI/CD with auto-deploy on every push
-- **Testing:** Jest and Supertest, k6 load tests
-- 🔗 [Repository](https://github.com/Shreyanshi123/social-api)
-
-### 🧱 Full-Stack Next.js Application
-A full-stack app with authentication, CRUD and search.
-
-- **Stack:** Next.js App Router, TypeScript (strict), Prisma, PostgreSQL, TanStack Query, Zustand, shadcn/ui, Zod
-- **Auth:** JWT-based, deployed on Vercel
-- 🔗 [Repository](https://github.com/Shreyanshi123/nextjs-fullstack-app)
+- 🔭 Building enterprise applications, REST APIs and microservices with Node.js, TypeScript, .NET and Python
+- 📄 Working on document-intelligence systems: ingestion, content extraction, search and retrieval
+- 🤖 Building LLM applications with RAG, vector search and agentic workflows
+- 🔐 Experience with authentication and authorization (Azure AD), Elasticsearch and Docker
+- 🌱 Currently learning more about AI evaluation and production-grade agent systems
 
 ---
 
@@ -69,15 +27,8 @@ A full-stack app with authentication, CRUD and search.
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
-
-**GenAI & Agents**
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![MCP](https://img.shields.io/badge/MCP-FastMCP-black?style=for-the-badge)
-![RAGAS](https://img.shields.io/badge/RAGAS-evaluation-2E7D32?style=for-the-badge)
+![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 
 **Backend**
 
@@ -86,7 +37,6 @@ A full-stack app with authentication, CRUD and search.
 ![NestJS](https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 ![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
 
 **Frontend**
 
@@ -94,50 +44,50 @@ A full-stack app with authentication, CRUD and search.
 ![Next.js](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
 
+**AI & Data**
+
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+
 **Databases & Search**
 
-![PostgreSQL](https://img.shields.io/badge/postgresql-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/elasticsearch-%230377CC.svg?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/postgresql-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
 
-**Cloud, DevOps & Testing**
+**Cloud & DevOps**
 
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
-![Pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 
 **Tools**
 
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-
-**Also familiar with**
-
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
-![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
 
 ---
 
-## ✍️ Writing
+## 🚀 Projects
 
-- 📝 [Technical write-up on my LangGraph and MCP build](#)
+Repositories are being added. Coming soon:
+
+- **OmniMemory** – AI-powered personal knowledge engine using RAG, ChromaDB and a FastAPI + Next.js stack for PDF, DOCX and TXT search and Q&A
+- **Persona.AI** – AI character chat studio with configurable personalities, multi-character conversations and Docker-based deployment
+- **Airline Booking System** – Full-stack booking platform built with .NET, SQL and Angular
 
 ---
 
 ## 📫 Let's Connect
 
-I'm open to conversations about GenAI engineering, agentic systems and backend architecture. Reach me on [LinkedIn](https://www.linkedin.com/in/shreyanshi-mishra-151508224/) or by [email](mailto:shreyanshimishra7689@gmail.com).
+I'm open to conversations about backend engineering, document intelligence and LLM applications. Reach me on [LinkedIn](https://www.linkedin.com/in/shreyanshi-mishra-151508224/) or by [email](mailto:shreyanshimishra7689@gmail.com).
